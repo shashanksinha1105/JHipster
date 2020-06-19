@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ms.gateway"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "gateway",
+    "baseName": "MyGatewayServiceApp",
+    "packageName": "com.ms.gateway",
+    "packageFolder": "com/ms/gateway",
+    "serverPort": "9899",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YmMzMmI5ZDBhNGFiZjgwYzg2MzUxMzI4Yzg5OWQ0NWY1ZTJiYWM5YWQzNWZjMGU1ZjFlMjdjNGYzYmNjMTJjZTE3YTFmMmY3ZmEyOWE4MGViOTcxNzNjMWExNGMyZWY0MjAwZWEzYzVkNGIwNTQ0Njg1N2UzODc2Mzg0MjNlZTc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1592591605941,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

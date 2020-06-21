@@ -14,6 +14,7 @@ import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.core.env.Environment;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.annotation.PostConstruct;
 import java.net.InetAddress;
@@ -24,6 +25,7 @@ import java.util.Collection;
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
 @EnableZuulProxy
+@EnableSwagger2
 public class MyGatewayServiceApp {
 
     private static final Logger log = LoggerFactory.getLogger(MyGatewayServiceApp.class);
